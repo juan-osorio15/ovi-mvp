@@ -106,9 +106,31 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 
 ---
 
-### 📦 Phase 2: Landing Page Components (PENDING)
+### 📦 Phase 2: Design System & Layout (IN PROGRESS)
 
-#### 2.1 Install Required shadcn/ui Components
+#### 2.1 Implement CSS Color Variables System
+
+**What we're building:**
+
+- Professional color system using CSS variables
+- Tailwind configured to use CSS variables
+- Support for light/dark themes (future-ready)
+- No hardcoded colors - all colors referenced via variables
+
+**Files to modify:**
+
+- `src/app/globals.css` - Define color variables
+- Tailwind uses CSS variables by default with shadcn
+
+**Color categories:**
+- Primary (green for OVI brand)
+- Neutral/Background (grays)
+- Accent (for highlights, badges)
+- Semantic (success, warning, error)
+
+**Git Commit Point:** "feat: implement CSS color variable system"
+
+#### 2.2 Install Required shadcn/ui Components
 
 **Components needed:**
 
@@ -116,7 +138,28 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 - Card
 - Badge
 
-#### 2.2 Create Landing Sections
+#### 2.3 Create Responsive Navigation
+
+**What we're building:**
+
+- Minimalist floating navbar: "OVI | Directorio"
+- Mobile-responsive (collapses on small screens if needed)
+
+**Files to create:**
+
+- `components/layout/Navbar.tsx` - Floating centered navbar
+
+**Files to modify:**
+
+- `src/app/layout.tsx` - Add Navbar, update metadata
+
+#### 2.4 Create Landing Sections
+
+**Design Requirements:**
+- **MUST be fully responsive** (mobile-first approach)
+- Use CSS color variables only (no hardcoded colors)
+- Clean, minimal design
+- Accessible and semantic HTML
 
 **Files to create:**
 
@@ -124,13 +167,13 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 - `components/landing/Features.tsx` - Features grid
 - `components/landing/CTA.tsx` - Call to action for professionals
 
-#### 2.3 Update Landing Page
+#### 2.5 Update Landing Page
 
 **Files to modify:**
 
 - `app/page.tsx` - Compose landing page with sections
 
-**Git Commit Point:** "feat: create landing page components"
+**Git Commit Point:** "feat: create responsive landing page components"
 
 ---
 
@@ -138,10 +181,15 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 
 #### 3.1 Create Directory Components
 
+**Design Requirements:**
+- **MUST be fully responsive** (mobile-first)
+- Use CSS color variables only
+- Grid adapts to screen size (1 col mobile → 2 col tablet → 3 col desktop)
+
 **Files to create:**
 
 - `components/directory/ResourceCard.tsx` - Individual resource card with tags
-- `components/directory/DirectoryGrid.tsx` - Grid layout
+- `components/directory/DirectoryGrid.tsx` - Responsive grid layout
 - `components/directory/TagFilter.tsx` - Tag-based filtering UI
 
 #### 3.2 Create Directory Page
@@ -150,7 +198,7 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 
 - `app/directory/page.tsx` - Fetch and display resources
 
-**Git Commit Point:** "feat: create directory page structure"
+**Git Commit Point:** "feat: create responsive directory page structure"
 
 ---
 
@@ -170,21 +218,15 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 
 ---
 
-### 🎨 Phase 5: Layout & Navigation (PENDING)
+### 🎨 Phase 5: Polish & Refinement (PENDING)
 
-#### 5.1 Create Navigation
+#### 5.1 Polish Styling
 
-**Files to modify:**
-
-- `app/layout.tsx` - Add navigation header
-
-#### 5.2 Polish Styling
-
-- Responsive design
-- Color scheme (green primary #16a34a)
+- Verify color variable usage (no hardcoded colors)
 - Spacing consistency
+- Smooth transitions and hover states
 
-**Git Commit Point:** "feat: add navigation and polish UI"
+**Git Commit Point:** "feat: polish styling and UI"
 
 ---
 
