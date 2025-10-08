@@ -35,6 +35,7 @@
   --color-pink-400: var(--pink-400);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --font-title: var(--font-title);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -97,6 +98,10 @@
     @apply border-gray-200;
   }
   body {
-    @apply bg-white text-black;
+    @apply bg-white text-black font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-title), var(--font-geist-sans), sans-serif !important;
+    letter-spacing: 0.02em; /* Adjust this value: 0.01em (subtle) to 0.05em (loose) */
   }
 }

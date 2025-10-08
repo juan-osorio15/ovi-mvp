@@ -36,3 +36,26 @@ Conecta fácil: Agenda, asiste a un taller o descarga un recurso gratuito.
 Avanza acompañado: Nunca más estarás solo en el proceso.
 
 CTA secundario: “Explorar directorio ahora”
+
+4. Sección de recursos gratuitos (engagement inmediato)
+   Título: Empieza hoy, sin costo
+
+Texto:
+Accede a nuestra biblioteca inicial de recursos gratuitos: meditaciones guiadas, ejercicios de respiración y estiramientos suaves. Un espacio para cuidar tu mente y tu cuerpo todos los días.
+
+Botón CTA: “Ver recursos gratuitos” - it leads to the directory but with the filters set to isFree (will implement later)
+
+5. Beneficios (para pacientes y familias)
+   Título: Lo que OVI te ofrece
+
+Lista (con íconos):
+
+Profesionales verificados con experiencia en oncología.
+
+Recursos complementarios seguros y basados en evidencia.
+
+Talleres y eventos presenciales en tu ciudad.
+
+Acceso a una comunidad que comprende tu proceso.
+
+Espacios sociales de apoyo y voluntariado.
