@@ -34,4 +34,5 @@ export interface Resource {
   active: boolean;
   isOnline?: boolean;
   isFree?: boolean;
+  cost?: string;
 }

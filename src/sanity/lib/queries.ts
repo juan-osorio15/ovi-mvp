@@ -13,7 +13,8 @@ export const RESOURCES_QUERY = `*[_type == "resource" && active == true] | order
   featured,
   active,
   isOnline,
-  isFree
+  isFree,
+  cost
 }`;
 
 export const FEATURED_RESOURCES_QUERY = `*[_type == "resource" && active == true && featured == true] | order(name asc) {
@@ -31,7 +32,8 @@ export const FEATURED_RESOURCES_QUERY = `*[_type == "resource" && active == true
   featured,
   active,
   isOnline,
-  isFree
+  isFree,
+  cost
 }`;
 
 // Get all unique tags from all resources (useful for filter UI)
