@@ -106,7 +106,7 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 
 ---
 
-### 📦 Phase 2: Design System & Layout (IN PROGRESS)
+### 📦 Phase 2: Design System & Layout (Resume Later)
 
 #### 2.1 Implement CSS Color Variables System
 
@@ -123,6 +123,7 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 - Tailwind uses CSS variables by default with shadcn
 
 **Color categories:**
+
 - Primary (green for OVI brand)
 - Neutral/Background (grays)
 - Accent (for highlights, badges)
@@ -138,7 +139,7 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 - Card
 - Badge
 
-#### 2.3 Create Responsive Navigation
+#### 2.3 Create Responsive Navigation (Completed)
 
 **What we're building:**
 
@@ -153,9 +154,10 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 
 - `src/app/layout.tsx` - Add Navbar, update metadata
 
-#### 2.4 Create Landing Sections
+#### 2.4 Create Landing Sections (Completed)
 
 **Design Requirements:**
+
 - **MUST be fully responsive** (mobile-first approach)
 - Use CSS color variables only (no hardcoded colors)
 - Clean, minimal design
@@ -167,7 +169,7 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 - `components/landing/Features.tsx` - Features grid
 - `components/landing/CTA.tsx` - Call to action for professionals
 
-#### 2.5 Update Landing Page
+#### 2.5 Update Landing Page (Completed)
 
 **Files to modify:**
 
@@ -177,11 +179,12 @@ Minimal MVP for OVI (Onco Vida Integrativa) - A specialized directory of complem
 
 ---
 
-### 📂 Phase 3: Directory Page - Basic Structure (PENDING)
+### 📂 Phase 3: Directory Page - Basic Structure (in progress)
 
 #### 3.1 Create Directory Components
 
 **Design Requirements:**
+
 - **MUST be fully responsive** (mobile-first)
 - Use CSS color variables only
 - Grid adapts to screen size (1 col mobile → 2 col tablet → 3 col desktop)
